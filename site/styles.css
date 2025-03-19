@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7be1f8;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #535151;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+   color: white;
+   padding: 14px 20px;
+   text-decoration: none;
+}
+
+.container {
+   display: flex;
+}
+
+.sidebar {
+   width: 25%;
+   padding: 10px;
+   background-color: #f4f4f4;
+}
+
+.content {
+   width: 75%;
+   padding: 10px;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
